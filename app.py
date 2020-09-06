@@ -19,6 +19,7 @@ def search_author():
     for n in authors:
         data = {}
         data['name'] = n.name
+        data['affiliation'] = n.affiliation
         data['url_picture'] = n.url_picture
         authors_arr.append(data)
 

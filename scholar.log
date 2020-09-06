@@ -1397,3 +1397,17 @@ INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&view_op=search
 INFO:scholarly:Found 3 authors
 INFO:scholarly:No more author pages
 INFO:werkzeug:127.0.0.1 - - [06/Sep/2020 22:27:21] "[37mGET /search_author HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in '/Users/jmanderson/dev/scholarly_server/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&view_op=search_authors&mauthors=Alexander%20Kondakov
+INFO:scholarly:Found 3 authors
+INFO:scholarly:No more author pages
+INFO:werkzeug:127.0.0.1 - - [06/Sep/2020 22:29:39] "[37mGET /search_author HTTP/1.1[0m" 200 -
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&view_op=search_authors&mauthors=John%20Malcolm%20Anderson
+INFO:scholarly:Found 0 authors
+INFO:scholarly:No more author pages
+INFO:werkzeug:127.0.0.1 - - [06/Sep/2020 22:30:19] "[37mGET /search_author HTTP/1.1[0m" 200 -
+INFO:scholarly:Getting https://scholar.google.com/citations?hl=en&view_op=search_authors&mauthors=John%20Malcolm%20A
+INFO:scholarly:Found 1 authors
+INFO:scholarly:No more author pages
+INFO:werkzeug:127.0.0.1 - - [06/Sep/2020 22:30:27] "[37mGET /search_author HTTP/1.1[0m" 200 -
